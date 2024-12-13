@@ -1,0 +1,171 @@
+body {url(index.html)
+    margin:0;
+    font-family: roboto,monospace;
+    color:#F9FAF8;
+}
+.container { 
+    height:40vh;
+    background-color: #1F2937;
+    display: flex;
+    flex-direction: column;
+         
+}
+
+ul { 
+    display: flex;
+    list-style-type: none;
+    gap: 30px;
+    margin-right: 190px;
+}
+
+a {
+    text-decoration: none;
+    color: #F9FAF8;
+}
+
+.header {
+    font-size: 24px;
+    color: #F9FAF8;
+    margin-left: 370px;
+    
+}   
+
+.top-page {
+    display: flex;
+    
+    
+    
+}
+.sidebar {
+    margin-left: auto;
+    
+}
+
+.main {
+    font-size: 48px;
+    color:#F9FAF8;
+    weight: 900;
+}
+
+.secondary,
+ul {
+   font-size:18px;
+   color: #E5E7EB; 
+}
+
+.hero-content {
+    display: flex;
+    justify-content: center;
+    
+
+}
+
+.description {
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    flex-shrink:0;
+    justify-content: center;
+    
+    
+}
+
+.photo {
+    padding: 100px;
+    
+}
+
+
+button {
+    background-color: #3882F6 ;
+    color:#F9FAF8;
+    width:80px;
+    height: 30px;
+    
+}
+
+.content2 {
+    color: #1F2937;
+    display: flex;
+    flex-direction: column;
+    width: 750px;
+    height: 30vh;
+    justify-content: space-evenly;
+    
+}
+
+.header2 {
+    font-size:36px;
+    weight: 900;
+    text-align: center;
+    
+}
+
+.squares .card {
+    width: 10px;
+    padding: 16px;
+    border: 1px solid blue;
+    
+}
+
+.squares,
+.paragraph {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+
+
+.below {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.code {
+    font-size: 36px;
+    color: #1F2937;
+    width: 800px;
+    text-wrap: wrap;
+}
+
+.credit {
+    color: #1F2937;
+    margin-left: 500px;
+}
+
+.content3 {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 20vh;
+    justify-content: center;
+}
+
+.content4 {
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.subcontent {
+    display: flex;
+    flex-direction: column;
+    background-color: #3882F6;
+    width: 500px;
+    height: 80px;
+    text-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+
+.footer {
+    background-color:#1F2937;
+    display: flex;
+    justify-content: center;
+}
